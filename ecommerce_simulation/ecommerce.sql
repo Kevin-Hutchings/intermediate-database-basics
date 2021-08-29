@@ -19,16 +19,16 @@ CREATE TABLE orders(
 INSERT INTO users
 (users_name, email)
 VALUES
-1 ('Jimmy', 'snowman@helthwyzer.com'),
-2 ('Glenn', 'crake@paradice.com'),
-3 ('Oryx', 'oryx@paradice.com')
+('Jimmy', 'snowman@helthwyzer.com'),
+('Glenn', 'crake@paradice.com'),
+('Oryx', 'oryx@paradice.com')
 
 INSERT INTO products
 (products_name, price)
 VALUES
-1 ('Beer', '5.50'),
-2 ('ChickieNobs', '12.50'),
-3 ('Pizza', '9.00')
+('Beer', '5.50'),
+('ChickieNobs', '12.50'),
+('Pizza', '9.00')
 
 INSERT INTO orders
 (products_id, user_id)
